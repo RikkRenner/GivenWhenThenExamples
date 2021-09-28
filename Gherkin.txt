@@ -1,0 +1,20 @@
+Sceario 1: Navigate to BBC
+Given I Open A Browser
+When I navigate to the BBC website
+Then I see the BBC Logo
+
+Scenario 2:  Navigate to ASDA
+Given I Open A Browser
+When I navigate to Google
+And I fill in the search bar with asda
+And I click the first link
+Then I see the Asda Logo
+
+Scenario 3: Navigate to Amazon
+Given I Open a Browser
+When I Navigate to "Amazon"
+And I fill in the search bar Nerf gun
+And I click the first link 
+And I click add to basket
+And I click on the basket symbol
+Then I see a nerf gun in the basket
