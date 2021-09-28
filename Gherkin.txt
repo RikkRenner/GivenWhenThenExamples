@@ -1,4 +1,4 @@
-Sceario 1: Navigate to BBC
+Scenario 1: Navigate to BBC
 Given I Open A Browser
 When I navigate to the BBC website
 Then I see the BBC Logo
